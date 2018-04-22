@@ -1,0 +1,99 @@
+body
+{
+    background-image:url(../img/lens-5.jpg);
+    background-repeat:  no-repeat;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, nav, div, span
+{
+    font-family: "Comfortaa", cursive; 
+}
+
+ .fa-bars{
+    font-size: 40px;
+    margin: 2% 10% 0 0;
+    padding-right: 10%;
+}
+
+.float-right {
+  float: right !important;
+}
+
+.float-left {
+  float: left !important;
+}
+
+.form-div
+{
+ width: 50%;
+}
+.info-div
+{
+    margin-left: 50%;
+    width: 40%
+}
+
+.padding-small
+{
+    padding: 4%;
+}
+
+.fixed-bottom {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.footer
+{
+    background-color: #7f0000;
+}
+.footer-text
+{
+    color: white;
+    text-align: center;
+}
+.text-red
+{
+    /*font-family: "Poor Story", cursive; !important*/
+    color: #7f0000;
+}
+.slack-clone {
+  position:relative;
+  width:200px;
+  margin:0 auto;
+  padding-bottom: 1%;
+}
+
+.slack-clone img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+ @keyframes slackFadeInOut {
+  0% {
+  opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
+}
+
+.slack-clone img.bottom {
+animation-name: slackFadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 5s;
+animation-direction: alternate;
+}
